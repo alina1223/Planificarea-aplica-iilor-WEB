@@ -1,5 +1,5 @@
-# Budgeting app
+# Landing pentru un site de sport
 
-## Aplicație pentru a calcula bugetul, veniturile și cheltuielile
+## Site pentru amatorii de sport cu exemple de exerciții și programe
  Echipa:
  Rotari Alina
