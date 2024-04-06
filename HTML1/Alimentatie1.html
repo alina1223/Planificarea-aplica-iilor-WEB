@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>KING FITNESS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="website icon" type="JPG" href="Inima.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<body class="Alimentatie">
+  <section class="top-nav">
+    <div>
+      <a href="index.html" class="logo"><img src="Inima.png" alt="Logo"></a>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+    <ul class="menu">
+      <li class="has-dropdown">
+        <a href="#"><i class="fas fa-dumbbell text-primary1"></i>Exercitii</a>
+        <ul class="submenu">
+          <a href="Slabire.html">Slabire</a>
+          <a href="Masificare.html">Masificare</a>
+        </ul>
+      </li>
+      <li class="has-dropdown">
+        <a href="Alimentatie1.html"><i class="fas fa-utensils text-primary2"></i>Alimentatie</a>
+        
+      </li>
+      
+      <li class="has-dropdown">
+        <a href="#"><i class="fas fa-folder-open"></i>Programā</a>
+        <ul class="submenu">
+          <a href="incepator.html">Incepator</a>
+          <a href="Amator.html">Amator</a>
+          <a href="Profesionis.html">Profesionis</a>
+        </ul>
+      </li>
+      <li><a href="desprenoi.html"><i class="fas fa-info-circle"></i>Despre noi</a></li>
+      <li><a href="contact.html"><i class="fas fa-address-book text-primary4"></i>Contacte</a></li>
+    </ul>
+  </section>
+
+
+
+<div class="O">
+
+  <h3>Calorii:</h3>
+<ul class="2">
+  <li><strong>Obiectiv:</strong> Reglarea aportului caloric în funcție de scopul dorit (creștere musculară sau slăbire).</li>
+  <li><strong>Recomandări:</strong>
+    <ul>
+      <li><strong>Masificare:</strong> Consumul unui surplus caloric de aproximativ 250-500 de calorii pe zi.</li>
+      <li><strong>Slăbire:</strong> Menținerea unui deficit caloric de aproximativ 500 de calorii pe zi.</li>
+    </ul>
+  </li>
+  <li><strong>Alimente de referință pentru masificare:</strong> surse dense caloric precum carnea de pui, orezul brun și avocado.</li>
+  <li><strong>Alimente de referință pentru slăbire:</strong> alimente cu densitate calorică redusă, cum ar fi legumele cu frunze verzi și fructele cu conținut scăzut de zahăr.</li>
+</ul>
+
+</div>
+</div>
+  <div class="container0">
+    <h1>Calculator BMR</h1>
+    <form id="bmrForm">
+        <label for="gender">Gen:</label>
+        <select id="gender" name="gender">
+            <option value="masculin">Masculin</option>
+            <option value="feminin">Feminin</option>
+        </select><br><br>
+        <label for="weight">Greutate (kg):</label>
+        <input type="number" id="weight" name="weight"><br><br>
+        <label for="height">Înălțime (cm):</label>
+        <input type="number" id="height" name="height"><br><br>
+        <label for="age">Vârstă (ani):</label>
+        <input type="number" id="age" name="age"><br><br>
+        <button type="button" onclick="calculateBMR()">Calculează BMR</button>
+    </form>
+    <div id="result"></div>
+  
+  </div>
+
+  <div class="O"> <h3> Proteine:</h3>
+    <ul>
+      <li><strong>Rol:</strong> Esențiale pentru creșterea și refacerea musculară.</li>
+      <li><strong>Dozaj recomandat:</strong> 1,6 până la 2,2 grame de proteină pe kilogram de greutate corporală.</li>
+      <li><strong>Surse alimentare:</strong>
+        <ul>
+          <li>Carne slabă (pui, curcan)</li>
+          <li>Pește (somon, ton)</li>
+          <li>Ouă</li>
+          <li>Produse lactate (iaurt, brânză)</li>
+          <li>Leguminoase (fasole, linte)</li>
+          <li>Suplimente proteice (proteine din zer)</li>
+        </ul>
+      </li>
+    </ul>
+    </div>
+
+<div class="O"><h3> Carbohidrați:</h3>
+  <ul>
+    <li><strong>Rol:</strong> Furnizarea de energie pentru antrenamente și recuperare musculară.</li>
+    <li><strong>Surse recomandate:</strong>
+      <ul>
+        <li>Cereale integrale (orez brun, quinoa)</li>
+        <li>Legume (cartofi dulci, morcovi)</li>
+        <li>Fructe (mere, portocale)</li>
+        <li>Leguminoase (fasole neagră, mazăre)</li>
+      </ul>
+    </li>
+  </ul>
+  </div>
+<div class="O">
+  <h3> Grăsimi sănătoase:</h3>
+<ul>
+  <li><strong>Importanța lor:</strong> Menținerea sănătății generale și a funcțiilor organismului.</li>
+  <li><strong>Surse alimentare:</strong>
+    <ul>
+      <li>Avocado</li>
+      <li>Nuci și semințe</li>
+      <li>Uleiuri nesaturate (măsline, nucă de cocos)</li>
+      <li>Pește gras (macrou, sardine)</li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+<div class="O">
+  <h3>Rețete pentru slăbire și masificare:</h3>
+<ul>
+  <li><strong>Slăbire:</strong>
+    <ul>
+      <li>Salate cu legume verzi și proteine slabe (pui, ton)</li>
+      <li>Preparate la aburi sau la grătar pentru a reduce conținutul de grăsimi</li>
+      <li>Smoothie-uri cu fructe proaspete și proteine din zer</li>
+    </ul>
+  </li>
+  <li><strong>Masificare:</strong>
+    <ul>
+      <li>Mâncăruri bogate în carbohidrați complecși, proteine și grăsimi sănătoase</li>
+      <li>Exemplu: orez brun cu pui și legume sau shake proteic cu unt de arahide și banane.</li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+<div class="O">
+  <h3>Alimente pentru creșterea masei musculare:</h3>
+<ul>
+  <li><strong>Surse de proteine:</strong> Carnea slabă, ouăle, leguminoasele și suplimentele proteice.</li>
+  <li><strong>Surse de carbohidrați:</strong> Cerealele integrale, legumele și fructele.</li>
+  <li><strong>Surse de grăsimi:</strong> Avocado, nuci și semințe, uleiuri sănătoase.</li>
+</ul>
+
+</div>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
